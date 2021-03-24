@@ -1,0 +1,33 @@
+/* ajuste tamanho de tela - verificar tamanho mais adequado ao inspecionar a pg*/
+
+
+@media screen and (max-width: 700px) { /*aplicando a regra de midia na tela e tambem quando tiver max 700px*/
+    header .container { /*container todo*/
+        display: flex;
+        flex-direction: column; /*quando atingir 700px logo + indices viram colunas*/
+    }
+
+     .box-principal .titulo-principal{
+        margin-top: 10%;
+        font-size: 30px;
+        font-family:'Trebuchet MS', Arial, sans-serif
+    }   
+     .descricao {
+        font-size: 12px;
+    }
+
+    .btn { /*botoes*/
+        margin-top: 5px; /*espacamento entre os botoes qdo atingir mx 700 px*/
+        padding: 5px 10px;
+        margin-right: 15px;
+        font-size: 10px;
+     }
+}
+
+
+@media screen and (min-width: 1000px) { 
+    .descricao{
+        width: 50%; /*mantem a descricao em largura definida quando aumenta a tela*/
+    }
+}
+
