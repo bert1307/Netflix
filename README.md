@@ -1,5 +1,6 @@
 # Netflix
 DIO_BOOTCAMP: JS Game Developer
 
-Recriando a pagina do Netflix!
-![] (DIO_2\layout_netflix.png)
+Recriando a pagina do Netflix! 🎥
+
+![layout_final](https://github.com/bert1307/Netflix/blob/main/DIO_2/layout_netflix.png")
